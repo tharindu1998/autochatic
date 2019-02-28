@@ -8,10 +8,11 @@
     <title>Ava Template</title>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="src/js/contact.js"></script>
 </head>
 
 <body class="is-boxed has-animations">
@@ -445,6 +446,144 @@
                 </div>
 
             </section>
+                <!-- Contact Section Start -->
+    <section id="contact-block" class="section contact-block">
+        <div class="container">
+
+            
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="row">
+
+                    <!-- Phone No. -->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="contact-list">
+                            <div class="contact-icon">
+                                <span class="mbri-mobile2"></span>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Call on</h5>
+                                <p>+ 94 77 *** ***</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email Address -->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="contact-list">
+                            <div class="contact-icon">
+                                <span class="mbri-letter"></span>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Email at</h5>
+                                <p><a href="mailto:info@kbjk.com">info@jhfhj.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <div class="contact-list">
+                            <div class="contact-icon">
+                                <span class="mbri-map-pin"></span>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Visit office</h5>
+                                <p><a href="">No.558/5,
+                                        "2nd Kurana", Negombo</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-xl-8 offset-xl-2 py-5">
+
+
+
+                        <form id="contact-form" method="post" action="./src/php/contact.php" role="form">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name"><b>Firstname *</b></label>
+                                            <input id="form_name" type="text" name="form_name" class="form-control" placeholder="" required="required"
+                                                data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname"><b>Lastname *</b></label>
+                                            <input id="form_lastname" type="text" name="form_lastname" class="form-control" placeholder="" required="required"
+                                                data-error="Lastname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email"><b>Email *</b></label>
+                                            <input id="form_email" type="email" name="form_email" class="form-control" placeholder="" required="required"
+                                                data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_need"><b>Please specify your need *</b></label>
+                                            <select id="form_need" name="form_need" class="form-control" required="required" data-error="Please specify your need.">
+                                                <option value=""></option>
+                                                <option value="Request pickup">Question</option>
+                                                <option value="Request Drop">Request a project</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message"><b>Message *</b></label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Type Your Content" rows="4" required="required"
+                                                data-error="Please, leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-primary btn-send" value="Send message">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
         </main>
 
         <footer class="site-footer text-light">
@@ -496,7 +635,7 @@
     </div>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <script src="https://use.fontawesome.com/5a8a7bb461.js"></script>
-    <script src="dist/js/main.min.js"></script>
+    <script src="./src/js/main.min.js"></script>
     <script src="./src/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
