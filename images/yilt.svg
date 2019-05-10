@@ -1,0 +1,82 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.25 57.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        mask: url(#mask);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        mask: url(#mask-2);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        mask: url(#mask-3);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-276.24" y1="343.24" x2="-277.24" y2="342.24" gradientTransform="matrix(-22.63, -22.63, -22.63, 22.63, 1525.41, -13998.41)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39d8c8"/>
+      <stop offset="0.47" stop-color="#bce4f4"/>
+      <stop offset="1" stop-color="#838dea"/>
+    </linearGradient>
+    <mask id="mask" x="0" y="0" width="45.25" height="56.57" maskUnits="userSpaceOnUse">
+      <g transform="translate(-9.37 -2.37)">
+        <g id="logo-gradient-d">
+          <path id="logo-gradient-a" class="cls-1" d="M20.69,2.37,32,13.69,43.31,2.37l9.9,9.9a2,2,0,0,1,0,2.83L33.41,34.9a2,2,0,0,1-2.82,0L10.79,15.1a2,2,0,0,1,0-2.83Z"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-2" x1="-276.89" y1="342.88" x2="-276.12" y2="342.13" gradientTransform="matrix(-22.63, -22.63, -22.63, 22.63, 1525.41, -13975.79)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1274ed" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1274ed"/>
+    </linearGradient>
+    <mask id="mask-2" x="0.83" y="2.55" width="43.6" height="55.45" maskUnits="userSpaceOnUse">
+      <g transform="translate(-9.37 -2.37)">
+        <g id="logo-gradient-d-2" data-name="logo-gradient-d">
+          <path id="logo-gradient-a-2" data-name="logo-gradient-a" class="cls-1" d="M20.69,60.37,32,49.06,43.31,60.37l9.9-9.9a2,2,0,0,0,0-2.83L33.41,27.85a2,2,0,0,0-2.82,0L10.79,47.64a2,2,0,0,0,0,2.83Z"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-3" x1="-276.92" y1="342.91" x2="-276.19" y2="342.2" gradientTransform="translate(1525.41 14040.53) rotate(135) scale(32)" xlink:href="#linear-gradient-2"/>
+    <mask id="mask-3" x="0.83" y="14.68" width="43.6" height="55.32" maskUnits="userSpaceOnUse">
+      <g transform="translate(-9.37 -2.37)">
+        <g id="logo-gradient-d-3" data-name="logo-gradient-d">
+          <path id="logo-gradient-a-3" data-name="logo-gradient-a" class="cls-1" d="M20.69,72.37,32,61.06,43.31,72.37l9.9-9.9a2,2,0,0,0,0-2.83L33.41,39.85a2,2,0,0,0-2.82,0L10.79,59.64a2,2,0,0,0,0,2.83Z"/>
+        </g>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-4" x1="-276.65" y1="342.65" x2="-275.93" y2="341.94" gradientTransform="translate(1525.41 14040.53) rotate(135) scale(32)" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <title>yilt</title>
+  <g>
+    <path id="logo-gradient-a-4" data-name="logo-gradient-a" class="cls-2" d="M20.69,2.37,32,13.69,43.31,2.37l9.9,9.9a2,2,0,0,1,0,2.83L33.41,34.9a2,2,0,0,1-2.82,0L10.79,15.1a2,2,0,0,1,0-2.83Z" transform="translate(-9.37 -2.37)"/>
+    <g class="cls-3">
+      <path class="cls-4" d="M9.37,36.31,32,13.69,54.63,36.31,32,58.94" transform="translate(-9.37 -2.37)"/>
+    </g>
+  </g>
+  <g class="cls-5">
+    <path class="cls-6" d="M30.09,5.71,11.28,24.52a2.71,2.71,0,0,0,0,3.82L30.09,47.15a2.71,2.71,0,0,0,3.82,0L52.72,28.34a2.71,2.71,0,0,0,0-3.82L33.91,5.71A2.71,2.71,0,0,0,30.09,5.71Z" transform="translate(-9.37 -2.37)"/>
+  </g>
+  <g class="cls-7">
+    <path class="cls-8" d="M29.87,17.93,11.5,36.31a3,3,0,0,0,0,4.25L29.87,58.93a3,3,0,0,0,4.26,0L52.5,40.56a3,3,0,0,0,0-4.25L34.13,17.93A3,3,0,0,0,29.87,17.93Z" transform="translate(-9.37 -2.37)"/>
+  </g>
+</svg>
